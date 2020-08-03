@@ -1,0 +1,75 @@
+{"intents": [
+		{"tag": "greeting",
+		 "patterns": ["Hi", "Is anyone there?", "Hello", "Good day"],
+		 "responses": ["Hello, thanks for stopping by", "Good to see you again", "Hi there, how can I help?"]
+		},
+		{"tag": "how_are_you",
+		 "patterns": ["How are you?", "How are things?", "Are you well", "Is everything good with you?"],
+		 "responses": ["I am fine. Thanks for asking.", "So far, so good", "It has been a great day so far.", "All good with me in the computer world"]
+		},
+		{"tag": "goodbye",
+		 "patterns": ["Bye", "See you later", "Goodbye", "quit"],
+		 "responses": ["See you later, happy to serve you", "Have a nice day", "Bye! Come back again soon."]
+		},
+		{"tag": "thanks",
+		 "patterns": ["Thanks", "Thank you", "That's helpful"],
+		 "responses": ["Happy to help!", "Any time!", "My pleasure"]
+		},
+		{"tag": "help",
+		 "patterns": ["Help", "I need help", "Whom do I contact if I need help", "Help needed", "How do I handle a support issue?", "Where do I get help if I get stuck?"],
+		 "responses": ["You can contact Sudeep if you need help", "Sudeep should be able to help you out"]
+		},
+		{"tag": "introduction",
+		 "patterns": ["Who created you?", "Who made you?", "Who was your creator?"],
+		 "responses": ["I was created by Sudeep DSouza from AxisCades."]
+		},
+		{"tag": "introduction",
+		 "patterns": ["Introduce yourself", "What is your name?", "What can you do?"],
+		 "responses": ["I am MLChat. I can provide you answers to your Machine Learning Questions"]
+		},
+		{"tag": "supervised_learning",
+		 "patterns": ["What is supervised learning?", "Define supervised learning.", "What can I do with supervised learning"],
+		 "responses": ["Supervised learning is the machine learning task of learning a function that maps an input to an output based on example input-output pairs"]
+		},
+		{"tag": "supervised_learning_types",
+		 "patterns": ["What are the types supervised learning?", "What are regression and classification?"],
+		 "responses": ["Regression and Classification are types of supervised learning algorithms, where inputs are mapped to target output variables."]
+		},
+		{"tag": "unsupervised_learning",
+		 "patterns": ["What is unsupervised learning?", "Define unsupervised learning.", "What can I do with unsupervised learning"],
+		 "responses": ["Unsupervised machine learning algorithms infer patterns from a dataset without reference to known, or labeled, outcomes."]
+		},
+		{"tag": "unsupervised_learning_types",
+		 "patterns": ["What are types of unsupervised learning?"],
+		 "responses": ["Clustering is a type of unsupervised learning where you can find trends in data"]
+		},
+		{"tag": "regression",
+		 "patterns": ["What is regression?", "Which model can I use for continuous data?", "Define regression", "Which model can I use to predict numerical data"],
+		 "responses": ["In statistical modeling, regression analysis is a set of statistical processes for estimating the relationships between a dependent variable and one or more independent variables"]
+		},
+		{"tag": "regression_algos",
+		 "patterns": ["What are the models in regression?", "Which algorithms come under regression?", "Regression models"],
+		 "responses": ["The following models can be used for regression: \nLinear Regression, \nMultiple Linear Regression, \nPolynomial Regression, \nSupport Vector Regression, \nDecision Tree Regression, \nRandom Forest Regression"]
+		},
+		{"tag": "classification",
+		 "patterns": ["What is classification?", "Which model can I use for categorical data?", "Define classification", "Which model can I use for attribute data?"],
+		 "responses": ["In machine learning, classification is a supervised learning concept which basically categorizes a set of data into classes. "]
+		},
+		{"tag": "classification_algos",
+		 "patterns": ["What are the models in classification?", "Which algorithms come under classification?", "Classification models"],
+		 "responses": ["The following models can be used for classification: \nLogistic Regression, \nK-Nearest Neigbours, \nNaive Bayes, \nSupport Vector Classification, \nDecision Trees, \nRandom Forest"]
+		},
+		{"tag": "clustering",
+		 "patterns": ["What is clustering?", "Which model can I use to group data?", "Define clustering"],
+		 "responses": ["Clustering is a Machine Learning technique that involves the grouping of data points."]
+		},
+		{"tag": "clustering_algos",
+		 "patterns": ["What are the models in clustering?", "Which algorithms come under clustering?", "Clustering models"],
+		 "responses": ["The following models can be used for clustering: \nK-Means, \nHeirarchial Clustering, \nDBSCAN, \nBIRCH"]
+		},
+		{"tag": "deep_learning",
+		 "patterns": ["What is deep learning?", "Deep Learning Models", "why do we use deep learning?", "What is a neural network", "explain deep learning"],
+		 "responses": ["Deep learning is an artificial intelligence (AI) function that imitates the workings of the human brain in processing data and creating patterns for use in decision making. \nIt can be used both for regression as well as for classification problems."]
+		}
+	]
+}
